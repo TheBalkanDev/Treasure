@@ -28,6 +28,4 @@ If you have an idea and/or an Issue feel free to open an Issue or Pull Repuest.
 
 #### Download: 
 Get the Plugin [Poggit Dev](https://poggit.pmmp.io/ci). 
-It's a Dev Build, it can contain Issues. 
-
-### I will over-write it... 
+It's a Dev Build, it can contain Issues.
