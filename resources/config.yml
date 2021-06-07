@@ -1,5 +1,19 @@
 #Tressure-PMMP
-#Plugin by TheBalkanDev - Example Config
+#Plugin by TheBalkanDev - Example Confi
+
+ # Messages
+ 
+ treasure-commom: "§1You find an §a§lCommon Treasure §1§lunderground!"
+ # The Message, when you find an Common Treasure!
+ 
+ treasure-rare: "§2You find an "§b§lRare Treasure §2§lunderground!"
+ # The Message, when aou find an Rare Treasure!
+
+ treasure-epic: "§gYou find an §5§lEPIC Treasure §g§lunderground!"
+ # The Message, when you find qn Epic Treasure!
+
+#Dropps
+
 #chance - Example: Chance: 15: You have the Chance 1:15 to find a Treasure.
 #item-max - How many Items you can get max. of one Item type.
 Example: 3 - You get 3 Diamonds from a Treasure.
@@ -26,14 +40,3 @@ lvl3-item-max: 10
 lvl3-loot:
  - 133
  - 57
- 
- # Messages
- 
- treasure-commom: "§1You find an §a§lCommon Treasure §1§lunderground!"
- # The Message, when you find an Common Treasure!
- 
- treasure-rare: "§2You find an "§b§lRare Treasure §2§lunderground!"
- # The Message, when aou find an Rare Treasure!
-
- treasure-epic: "§gYou find an §5§lEPIC Treasure §g§lunderground!"
- # The Message, when you find qn Epic Treasure!
