@@ -2,15 +2,13 @@
 #Plugin by TheBalkanDev - Example Confi
 
  # Messages
+ # The Message, when you find an Treasure!
  
  treasure-commom: "§1You find an §a§lCommon Treasure §1§lunderground!"
- # The Message, when you find an Common Treasure!
  
  treasure-rare: "§2You find an "§b§lRare Treasure §2§lunderground!"
- # The Message, when aou find an Rare Treasure!
-
+ 
  treasure-epic: "§gYou find an §5§lEPIC Treasure §g§lunderground!"
- # The Message, when you find qn Epic Treasure!
 
 #Dropps
 
