@@ -5,9 +5,7 @@
  # The Message, when you find an Treasure!
  
  treasure-commom: "§1You find an §a§lCommon Treasure §1§lunderground!"
- 
  treasure-rare: "§2You find an "§b§lRare Treasure §2§lunderground!"
- 
  treasure-epic: "§gYou find an §5§lEPIC Treasure §g§lunderground!"
 
 #Dropps
