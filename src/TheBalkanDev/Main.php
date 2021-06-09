@@ -4,7 +4,7 @@ namespace TheBalkanDev;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\Server;
-use pockermine\utils/Utils;
+use pockermine\utils\Utils;
 use pocketmine\event\Listener;
 use pocketmine\utils\TextFormat;
 use pocketmine\event\block\BlockBreakEvent;
