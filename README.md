@@ -20,7 +20,7 @@ Wenn du Stein abbaust, hast du die Chance nice Items zu bekommen (alles in der d
 - [X] Custom Messages 
 - [X] Particles, when you find a Treasure 
 - [ ] Sound effects 
-- [ ] Ignore GM 1 (not begin jet) 
+- [X] Ignore GM 1 (not begin jet) 
 - [ ] Custom Blocks where you can find Treasures (10% in progress) 
 - [ ] More Stuff 
 
