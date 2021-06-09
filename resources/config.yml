@@ -1,5 +1,5 @@
 # Tressure-PMMP
-# Plugin by TheBalkanDev - Example Confi
+# Plugin by TheBalkanDev - Example Config
 
  # Messages
  # The Message, when you find an Treasure!
@@ -9,11 +9,9 @@
  treasure-epic: "§gYou find an §5§lEPIC Treasure §g§lunderground!"
 
 #Dropps
-
 #chance - Example: Chance: 15: You have the Chance 1:15 to find a Treasure.
 #item-max - How many Items you can get max. of one Item type.
 Example: 3 - You get 3 Diamonds from a Treasure.
-
 
 lvl1-chance: 85
 lvl1-item-max: 3
