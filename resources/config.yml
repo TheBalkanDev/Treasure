@@ -1,11 +1,9 @@
-# Tressure
-# Plugin by TheBalkanDev - (C) 2021 - TheBalkan Dev.
-
-# example config
-# chance - Example: Chance: 15: You have the Chance 1:15 to find a Treasure.
-# message - Set the Message, when you find a Treasure!
+#Tressure
+#example config
+#chance - Example: Chance: 15: You have the Chance 1:15 to find a Treasure.
+#message - Set the Message, when you find a Treasure!
 #item-max - How many Items you can get max. of one Item type.
-Example: 3 - You get 3 Diamonds from a Treasure.
+#example: 3 - You get 3 Diamonds from a Treasure.
 
 lvl1-chance: 85
 lvl1-message: "§1You find an §a§lCommon Treasure §1§lunderground!"
