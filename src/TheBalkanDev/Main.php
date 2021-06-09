@@ -3,6 +3,9 @@
 namespace TheBalkanDev;
 
 use pocketmine\plugin\PluginBase;
+use pocketmine\Server;
+use pocketmine Player;
+use pockermine\utils/Utils;
 use pocketmine\event\Listener;
 use pocketmine\utils\TextFormat;
 use pocketmine\event\block\BlockBreakEvent;
@@ -27,7 +30,7 @@ class Main extends PluginBase implements Listener{
 				$p->getLevel()->addParticle(new LavaParticle($b, 2));
 			}
 			$p->getLevel()->addSound(new PopSound($p));
-			$p->sendMessage($config->get("treasure-common") . "§1§lYou find an §a§lCommon Treasure §1§lunderground!");
+			$player->sendMessage($this->getConfig()->get("treasure-commom"));
 			foreach($this->getConfig()->get("lvl1-loot") as $loot){
 				$p->getInventory()->addItem(Item::get($loot,0,mt_rand(0,$this->getConfig()->get("lvl1-item-max"))));
 			}
@@ -37,7 +40,7 @@ class Main extends PluginBase implements Listener{
 				$p->getLevel()->addParticle(new LavaParticle($b, 2));
 			}
 			$p->getLevel()->addSound(new PopSound($p));
-			$p->sendMessage($config->get("treasure-rare") . "§2You find an §b§lRare Treasure §2§lunderground!");
+			$player->sendMessage($this->getConfig()->get("treasure-rare"));
 			foreach($this->getConfig()->get("lvl2-loot") as $loot){
 				$p->getInventory()->addItem(Item::get($loot,0,mt_rand(0,$this->getConfig()->get("lvl2-item-max"))));
 			}
@@ -47,7 +50,7 @@ class Main extends PluginBase implements Listener{
 				$p->getLevel()->addParticle(new LavaParticle($b, 2));
 			}
 			$p->getLevel()->addSound(new PopSound($p));
-			$p->sendMessage($config->get("treasure-epic") . "§gYou find an §5§lEPIC Treasure §g§lunderground!");
+			$player->sendMessage($this->getConfig()->get("treasure-epic"));
 			foreach($this->getConfig()->get("t3-loot") as $loot){
 				$p->getInventory()->addItem(Item::get($loot,0,mt_rand(0,$this->getConfig()->get("lvl3-item-max"))));
 			}
