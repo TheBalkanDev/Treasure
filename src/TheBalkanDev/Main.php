@@ -50,7 +50,7 @@ class Main extends PluginBase implements Listener{
 			}
 			$p->getLevel()->addSound(new PopSound($p));
 			$p->sendMessage($this->getConfig()->get("lvl3-message"));
-			foreach($this->getConfig()->get("t3-loot") as $loot){
+			foreach($this->getConfig()->get("lvl3-loot") as $loot){
 				$p->getInventory()->addItem(Item::get($loot,0,mt_rand(0,$this->getConfig()->get("lvl3-item-max"))));
 			}
 		}
