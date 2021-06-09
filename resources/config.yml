@@ -1,19 +1,14 @@
-# Tressure-PMMP
-# Plugin by TheBalkanDev - Example Config
+# Tressure
+# Plugin by TheBalkanDev - (C) 2021 - TheBalkan Dev.
 
- # Messages
- # The Message, when you find an Treasure!
- 
- treasure-commom: "§1You find an §a§lCommon Treasure §1§lunderground!"
- treasure-rare: "§2You find an "§b§lRare Treasure §2§lunderground!"
- treasure-epic: "§gYou find an §5§lEPIC Treasure §g§lunderground!"
-
-#Dropps
-#chance - Example: Chance: 15: You have the Chance 1:15 to find a Treasure.
+# example config
+# chance - Example: Chance: 15: You have the Chance 1:15 to find a Treasure.
+# message - Set the Message, when you find a Treasure!
 #item-max - How many Items you can get max. of one Item type.
 Example: 3 - You get 3 Diamonds from a Treasure.
 
 lvl1-chance: 85
+lvl1-message: "§1You find an §a§lCommon Treasure §1§lunderground!"
 lvl1-item-max: 3
 lvl1-loot:
  - 256
@@ -22,6 +17,7 @@ lvl1-loot:
  - 351:4
 
 lvl2-chance: 97
+lvl2-message: "§2You find an "§b§lRare Treasure §2§lunderground!"
 lvl2-item-max: 5
 lvl2-loot:
  - 264
@@ -30,6 +26,7 @@ lvl2-loot:
  - 388
  
 lvl3-chance: 50
+lvl3-message: "§gYou find an §5§lEPIC Treasure §g§lunderground!"
 lvl3-item-max: 10
 lvl3-loot:
  - 133
