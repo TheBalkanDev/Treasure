@@ -11,6 +11,8 @@ use pocketmine\event\block\BlockBreakEvent;
 use pocketmine\level\sound\PopSound;
 use pocketmine\level\particle\LavaParticle;
 use pocketmine\item\Item;
+use pocketmine\math\Vector3;
+
 
 class Main extends PluginBase implements Listener{
 	
