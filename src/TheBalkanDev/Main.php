@@ -19,7 +19,7 @@ class Main extends PluginBase implements Listener{
 		$this->getServer()->getPluginManager()->registerEvents($this,$this);
 		$this->saveDefaultConfig();
 		
-		$this->getServer()->getLogger()->info(TextFormat::GREEN."[Treasure] Active!");
+		$this->getServer()->getLogger()->info(TextFormat::GREEN."[Treasure] is now on!");
 	}
 
 	public function onBreak(BlockBreakEvent $e){
