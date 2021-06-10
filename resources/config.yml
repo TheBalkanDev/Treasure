@@ -6,7 +6,6 @@
 #example: 3 - You get 3 Diamonds from a Treasure.
 
 lvl1-chance: 85
-lvl1-sound: PopSound
 lvl1-message: §1You find an §a§lCommon Treasure §1§lunderground!
 lvl1-item-max: 3
 lvl1-loot:
@@ -16,7 +15,6 @@ lvl1-loot:
  - 351:4
 
 lvl2-chance: 97
-lvl3-sound: PopSound
 lvl2-message: §2You find an "§b§lRare Treasure §2§lunderground!
 lvl2-item-max: 5
 lvl2-loot:
@@ -25,8 +23,7 @@ lvl2-loot:
  - 47
  - 388
  
-lvl3-chance: 50
-lvl3-sound: PopSound
+lvl3-chance: 99
 lvl3-message: §gYou find an §5§lEPIC Treasure §g§lunderground!
 lvl3-item-max: 10
 lvl3-loot:
