@@ -28,7 +28,7 @@ class Main extends PluginBase implements Listener{
 			for($i = 0; $i <= 5; $i++){
 				$p->getLevel()->addParticle(new LavaParticle($b, 2));
 			}
-			$sound = $this->getConfig()->get("lvl1-sound");
+			$config= $this->getConfig()->get("lvl1-sound");
 		        $p->getLevel()->addSound(new GenericSound($player, $sound), [$player]);
 			$p->sendMessage($this->getConfig()->get("lvl1-message"));
 			foreach($this->getConfig()->get("lvl1-loot") as $loot){
@@ -39,7 +39,7 @@ class Main extends PluginBase implements Listener{
 			for($i = 0; $i <= 8; $i++){
 				$p->getLevel()->addParticle(new LavaParticle($b, 2));
 			}
-			$sound = $this->getConfig()->get("lvl2-sound");
+			$config = $this->getConfig()->get("lvl2-sound");
 		        $p->getLevel()->addSound(new GenericSound($p, $sound), [$player]);
 			$p->sendMessage($this->getConfig()->get("lvl2-message"));
 			foreach($this->getConfig()->get("lvl2-loot") as $loot){
@@ -50,7 +50,7 @@ class Main extends PluginBase implements Listener{
 			for($i = 0; $i <= 11; $i++){
 				$p->getLevel()->addParticle(new LavaParticle($b, 2));
 			}
-			$sound = $this->getConfig()->get("lvl2-sound");
+			$config = $this->getConfig()->get("lvl2-sound");
 		        $p->getLevel()->addSound(new GenericSound($player, $sound), [$player]);
 			$p->sendMessage($this->getConfig()->get("lvl3-message"));
 			foreach($this->getConfig()->get("lvl3-loot") as $loot){
