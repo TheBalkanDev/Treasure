@@ -27,8 +27,7 @@ class Main extends PluginBase implements Listener{
 		$b = $e->getBlock();
 		if($e->getBlock()->getId() == 1 && mt_rand(0,$this->getConfig()->get("lvl1-chance")) == "1"){
 			for($i = 0; $i <= 5; $i++){
-				$p->getLevel()->addParticle(new LavaParticle($b, 2));
-			}
+		        $p->getLevel()->addParticle(new LavaParticle($b, 2));
 			$p->addSound(new PopSound($p));
 			$p->sendMessage($this->getConfig()->get("lvl1-message"));
 			foreach($this->getConfig()->get("lvl1-loot") as $loot){
@@ -37,8 +36,7 @@ class Main extends PluginBase implements Listener{
 		}
 		if($e->getBlock()->getId() == 1 && mt_rand(0,$this->getConfig()->get("lvl2-chance")) == "1"){
 			for($i = 0; $i <= 8; $i++){
-				$p->getLevel()->addParticle(new LavaParticle($b, 2));
-			}
+		        $p->getLevel()->addParticle(new LavaParticle($b, 2));
 			$p->addSound(new PopSound($p));
 			$p->sendMessage($this->getConfig()->get("lvl2-message"));
 			foreach($this->getConfig()->get("lvl2-loot") as $loot){
@@ -47,8 +45,7 @@ class Main extends PluginBase implements Listener{
 		}
 		if($e->getBlock()->getId() == 1 && mt_rand(0,$this->getConfig()->get("lvl3-chance")) == "1"){
 			for($i = 0; $i <= 11; $i++){
-				$p->getLevel()->addParticle(new LavaParticle($b, 2));
-			}
+		        $p->getLevel()->addParticle(new LavaParticle($b, 2));
 			$p->addSound(new PopSound($p));
 			$p->sendMessage($this->getConfig()->get("lvl3-message"));
 			foreach($this->getConfig()->get("lvl3-loot") as $loot){
