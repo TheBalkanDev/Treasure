@@ -32,7 +32,7 @@ class Main extends PluginBase implements Listener{
 			for($i = 0; $i <= 5; $i++){
 				$p->getLevel()->addParticle(new LavaParticle($b, 2));
 			}
-		        $p->getLevel()->addSound(new PopSound(new Vector3($p->getX(), $p->getY(), $p->getZ())));
+		        $p->getLevel()->addSound(new PopSound(new Vector3($player->getX(), $player->getY(), $player->getZ())));
 			$p->sendMessage($this->getConfig()->get("lvl1-message"));
 			foreach($this->getConfig()->get("lvl1-loot") as $loot){
 				$p->getInventory()->addItem(Item::get($loot,0,mt_rand(0,$this->getConfig()->get("lvl1-item-max"))));
@@ -42,7 +42,7 @@ class Main extends PluginBase implements Listener{
 			for($i = 0; $i <= 8; $i++){
 				$p->getLevel()->addParticle(new LavaParticle($b, 2));
 			}
-		        $p->getLevel()->addSound(new PopSound(new Vector3($p->getX(), $p->getY(), $p->getZ())));
+		        $p->getLevel()->addSound(new PopSound(new Vector3($player->getX(), $player->getY(), $player->getZ())));
 			$p->sendMessage($this->getConfig()->get("lvl2-message"));
 			foreach($this->getConfig()->get("lvl2-loot") as $loot){
 				$p->getInventory()->addItem(Item::get($loot,0,mt_rand(0,$this->getConfig()->get("lvl2-item-max"))));
@@ -52,7 +52,7 @@ class Main extends PluginBase implements Listener{
 			for($i = 0; $i <= 11; $i++){
 				$p->getLevel()->addParticle(new LavaParticle($b, 2));
 			}
-		        $p->getLevel()->addSound(new PopSound(new Vector3($p->getX(), $p->getY(), $p->getZ())));
+		        $p->getLevel()->addSound(new PopSound(new Vector3($player->getX(), $player->getY(), $player->getZ())));
 			$p->sendMessage($this->getConfig()->get("lvl3-message"));
 			foreach($this->getConfig()->get("lvl3-loot") as $loot){
 				$p->getInventory()->addItem(Item::get($loot,0,mt_rand(0,$this->getConfig()->get("lvl3-item-max"))));
