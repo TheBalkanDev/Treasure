@@ -3,6 +3,7 @@
 namespace TheBalkanDev;
 
 use pocketmine\plugin\PluginBase;
+use pocketmine\Player;
 use pocketmine\Server;
 use pockermine\utils\Utils;
 use pocketmine\event\Listener;
