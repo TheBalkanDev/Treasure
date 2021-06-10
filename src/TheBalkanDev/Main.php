@@ -4,6 +4,7 @@ namespace TheBalkanDev;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\Server;
+use pocketmine\Player;
 use pockermine\utils\Utils;
 use pocketmine\event\Listener;
 use pocketmine\utils\TextFormat;
