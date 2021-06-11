@@ -32,8 +32,7 @@ class Main extends PluginBase implements Listener{
 			for($i = 0; $i <= 5; $i++){
 				$p->getLevel()->addParticle(new LavaParticle($b, 2));
 			}
-		                $p->getLevel()->addSound(new PopSound($p));
-                                   
+		                $p->getLevel()->addSound(new PopSound($p);    
 		        }
 			$p->sendMessage($this->getConfig()->get("lvl1-message"));
 			foreach($this->getConfig()->get("lvl1-loot") as $loot){
