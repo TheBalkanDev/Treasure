@@ -28,7 +28,6 @@ class Main extends PluginBase implements Listener{
 				$p->getLevel()->addParticle(new LavaParticle($b, 2));
 			}
 			$p->getLevel()->addSound(new PopSound($p));
-		}
 			$p->sendMessage($this->getConfig()->get("lvl1-message"));
 			foreach($this->getConfig()->get("lvl1-loot") as $loot){
 				$p->getInventory()->addItem(Item::get($loot,0,mt_rand(0,$this->getConfig()->get("lvl1-item-max"))));
