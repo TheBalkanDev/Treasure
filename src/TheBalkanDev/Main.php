@@ -40,7 +40,7 @@ class Main extends PluginBase implements Listener{
 				$p->getInventory()->addItem(Item::get($loot,0,mt_rand(0,$this->getConfig()->get("lvl1-item-max"))));
 			}
 		}
-		if($e->getBlock()->getId() == 1 && mt_rand(0,$this->getConfig()->get("lvl2-chance")) == "1"){
+		if($e->getBlock()->getId() == 1 && mt_rand(0,$this->getConfig()->get("lvl1-chance")) == "1"){
 			for($i = 0; $i <= 8; $i++){
 				$p->getLevel()->addParticle(new LavaParticle($b, 2));
 			}
