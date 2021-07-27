@@ -19,9 +19,9 @@ Wenn du Stein abbaust, hast du die Chance nice Items zu bekommen (alles in der d
 - [X] Config.yml 
 - [X] Custom Messages 
 - [X] Particles, when you find a Treasure 
-- [X] Sound effects, when you find a Treasure
-- [ ] Custom Blocks where you can find Treasures (priority:low) 
-- [ ] More config options (priority:very high)
+- [X] Sound effects, when you find a Treasure (fixing)
+- [ ] Custom Blocks where you can find Treasures (2.4.1) 
+- [ ] More config options (2.4.1)
 - [ ] More Nice Stuff...
 
 If you have an idea and/or an Issue feel free to open an Issue or Pull Repuest. 
