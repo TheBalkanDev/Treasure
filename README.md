@@ -32,7 +32,7 @@ If you have an idea and/or an Issue feel free to open an Issue or Pull Repuest.
 3. Restart the Server!
 4. Edit the config.yml
 5. Now you are ready to find Treasures!
-6. Good luck
+6. Good luck!
 
 #### Download: 
 Get the Plugin [Poggit Dev](https://poggit.pmmp.io/ci). 
