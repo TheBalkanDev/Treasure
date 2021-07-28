@@ -26,6 +26,14 @@ Wenn du Stein abbaust, hast du die Chance nice Items zu bekommen (alles in der d
 
 If you have an idea and/or an Issue feel free to open an Issue or Pull Repuest. 
 
+### Get started!
+1. Download the latest Build from Poggit.
+2. Put it in the "plugins" folder.
+3. Restart the Server!
+4. Edit the config.yml
+5. Now you are ready to find Treasures!
+6. Good luck
+
 #### Download: 
 Get the Plugin [Poggit Dev](https://poggit.pmmp.io/ci). 
 It's a Dev Build, it can contain Issues.
