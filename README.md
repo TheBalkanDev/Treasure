@@ -22,6 +22,7 @@ Wenn du Stein abbaust, hast du die Chance nice Items zu bekommen (alles in der d
 - [X] Sound effects, when you find a Treasure (fixing)
 - [ ] Custom Blocks where you can find Treasures (2.4.1) 
 - [ ] More config options (2.4.1)
+- [ ] Ignore Gamemode 1 (2.4.2)
 - [ ] More Nice Stuff...
 
 If you have an idea and/or an Issue feel free to open an Issue or Pull Repuest. 
