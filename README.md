@@ -24,12 +24,12 @@ Wenn du Stein abbaust, hast du die Chance nice Items zu bekommen (alles in der d
 - [X] Custom Messages 
 - [X] Particles, when you find a Treasure 
 - [X] Sound effects, when you find a Treasure (fixing)
-- [ ] Custom Blocks where you can find Treasures (2.4.1) 
-- [ ] More config options (2.4.1)
-- [ ] Ignore Gamemode 1 (2.4.2)
-- [ ] More Nice Stuff...
+- [ ] Custom Blocks where you can find Treasures
+- [ ] More config options 
+- [ ] Ignore Gamemode 1
 
 If you have an idea and/or an Issue feel free to open an Issue or Pull Repuest. 
+if you want to hold this Plugin alive, you can Fork it!
 
 ### Get started!
 1. Download the latest Build from Poggit.
