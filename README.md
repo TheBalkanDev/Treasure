@@ -1,4 +1,8 @@
 # Treasure
+
+## IMPORTANT:
+• This Plugin donˋt get Updates anymore!
+
 ## Overview: 
 
 [ENG] This Plugin adds the posibility to find Treasures underground. 
